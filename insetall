@@ -1,0 +1,26 @@
+#install
+docker pull "os name"
+
+#start after restart
+docker start "container name"
+
+#build from Dockerfile
+docker build . -t "target name"
+
+# run
+-> docker run -d -t --name "instance" "os name"
+-> docker run --rm -it "container form build" "shall name"
+
+# coonnect
+docker exec -it "image name" "shall"
+
+# docker remove
+docker rm "image name"
+docker rm -f "image name"
+
+#docker list
+docker ps
+docker ps -a
+
+#stop
+docker stop "docker name"
